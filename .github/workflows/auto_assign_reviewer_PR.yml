@@ -1,7 +1,7 @@
 name: 'Auto Assign Review To PR'
 on:
   pull_request:
-    types: [opened, reopen]
+    types: [opened, reopened]
     branches:
       - 'github-action-test/**'
 
