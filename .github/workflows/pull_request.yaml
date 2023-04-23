@@ -3,8 +3,7 @@ name: Continuos integration with PR
 on:
   pull_request:
     branches:
-      - "features/**"
-      - "github-action-test/**"
+      - "main"
 
 jobs:
   Build-project:
