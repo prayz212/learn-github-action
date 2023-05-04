@@ -41,5 +41,5 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets:DOCKERFILE_REPO_NAME }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.DOCKERFILE_REPO_NAME }}
 
